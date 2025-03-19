@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(download.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card {
+    background: rgb(156, 156, 31);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.description {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.join-button {
+    background-color: #7cdafc;
+    color: rgb(25, 0, 255);
+    padding: 5px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.join-button:hover {
+    background-color: #0056b3;
+}
+
+.jokes {
+    color: darkblue;
+}
